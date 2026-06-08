@@ -105,12 +105,6 @@ export default function LetterReveal({ onBack }) {
               </p>
 
               <p>
-                Thank you for the smiles you have shared, the memories we have
-                created, and the moments that became special simply because you
-                were a part of them.
-              </p>
-
-              <p>
                 On your birthday, I wish you endless happiness, good health,
                 success in everything you dream of, and countless reasons to
                 smile.
@@ -122,7 +116,8 @@ export default function LetterReveal({ onBack }) {
               </p>
 
               <p className="flex items-center gap-2 font-bold text-pink-600">
-                Happy Birthday <FaHeart className="text-sm" aria-hidden="true" />
+                Happy Birthday{" "}
+                <FaHeart className="text-sm" aria-hidden="true" />
               </p>
 
               <p>Enjoy your special day. You deserve it.</p>
