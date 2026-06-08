@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap");
+
+@import "tailwindcss";
+
+@keyframes floatingGradient {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-floating-gradient {
+  animation: floatingGradient 8s ease-in-out infinite;
+}
+
+.birthday-title {
+  text-shadow:
+    0px 2px 0px #dbeafe,
+    0px 4px 0px #cbd5e1,
+    0px 6px 0px #bfdbfe,
+    0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.handwritten {
+  font-family: "Shadows Into Light", cursive;
+}
+
+.info {
+  font-family: "Rouge Script", cursive;
+}
