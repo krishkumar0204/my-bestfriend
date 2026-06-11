@@ -4,10 +4,7 @@ import BirthdayReveal from "./pages/BirthdayReveal";
 
 // real
 const BIRTHDAY_TIMESTAMP = Date.parse("2026-06-14T00:00:00+05:30");
-// const BIRTHDAY_DATE = new Date(BIRTHDAY_TIMESTAMP);
-
-// for testing
-const BIRTHDAY_DATE = new Date(Date.now() + 10000);
+const BIRTHDAY_DATE = new Date(BIRTHDAY_TIMESTAMP);
 const TEST_MODE_PARAM = "birthdayTest";
 
 function isBirthdayTestMode() {
