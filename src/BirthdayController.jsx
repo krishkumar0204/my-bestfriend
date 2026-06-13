@@ -2,9 +2,10 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import WaitingRoom from "./pages/WaitingRoom";
 import BirthdayReveal from "./pages/BirthdayReveal";
 
-// real
-const BIRTHDAY_TIMESTAMP = Date.parse("2026-06-14T00:00:00+05:30");
+// Test timer: starts the birthday reveal 10 seconds after the page loads.
+const BIRTHDAY_TIMESTAMP = Date.now() + 10000;
 const BIRTHDAY_DATE = new Date(BIRTHDAY_TIMESTAMP);
+
 const TEST_MODE_PARAM = "birthdayTest";
 
 function isBirthdayTestMode() {
